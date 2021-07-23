@@ -1,0 +1,541 @@
+/*---------- Font Styles  -----------*/
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200;1,800&display=swap');
+
+
+.top_area{
+    background-color: #1e2126;
+    padding: 12px 0 0 0;
+    font-size: .85vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.top_area a{
+    color: #fff;
+    text-decoration: none;
+}
+.top_area a:hover{
+    opacity: .8;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.top_area p:hover{
+    opacity: .8;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.top_area i{
+    color: #f7be49;
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-start;
+}
+.social-icons a i{
+    color: #fff;
+    margin-right: 14px;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+
+
+/* ------------ Navbar Area ------------*/
+.navbar-area{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1vw;
+    font-weight: 400;
+    background-color: #efefef70;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.navbar-area .menu-section .dropdown-menu{
+    margin-left: -49px;
+    background-color: #bfbfbf;
+    border: 0;
+    border-radius: 10px;
+}
+.navbar-area .menu-section .dropdown a:after{
+    display: none;
+}
+.navbar-area .navbarRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-area .menu-section li{
+    text-align: center;
+    padding: 0 10px;
+}
+/* .navbar-area .searchSection input{
+    margin-top: -22px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    display: none;
+}
+.navbar-area .searchSection .searchForm{
+    position: relative;
+}
+.navbar-area .searchSection .searchForm button{
+    position: absolute;
+    top: -18px;
+    right: -122px;
+    border: 0;
+    border-radius: 100%;
+    color: #333;
+    background-color: inherit;
+} */
+
+
+/* ----------------  HomePageSlides start  ---------------- */
+.carousel-item{
+    width: 100%;
+    height: 500px;
+}
+
+.homePageSlides .carouselItem1 {
+    background-image: url("../images/slide-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.homePageSlides .carouselItem1 .carouselItemContent1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 75%;
+}
+
+.homePageSlides .carouselItem1 .carouselItemContent1 h2{
+    text-shadow: 0 0 7px #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.homePageSlides .carouselItem1 .carouselItemContent1 p{
+    width: 90%;
+    font-family: 'Mitr', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.homePageSlides .carouselItem1 .carouselItemContent1 button{
+    border-radius: 5px;
+}
+
+.homePageSlides .carouselItem2{
+    display: flex;
+    justify-content: center;
+}
+
+.homePageSlides .carouselItem2 .carouselItemContent2{
+    position: absolute;
+    top: 180px;
+}
+
+.homePageSlides .carouselItem2 .carouselItemContent2 h2{
+    text-shadow: 1px 1px 7px #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.homePageSlides .carouselItem2 .carouselItemContent2 p{
+    font-family: 'Mitr', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.homePageSlides .carouselItem2 .carouselItemContent2 button{
+    border-radius: 5px;
+}
+
+/* ----------------  HomePageSlides End  ---------------- */
+
+/* ----------------  ConstructionContentArea start  ---------------- */
+.constructionContentArea {
+    margin: 60px auto;
+}
+
+.constructionContentArea .container{
+    height: 400px;
+}
+
+.constructionContentArea .textArea h3:after{
+    content: "";
+    width: 20%;
+    height: 4px;
+    display: block;
+    background-color: #ffc107;
+    margin-top: 10px;
+
+}
+
+/* ----------------  ConstructionContentArea End  ---------------- */
+/* ----------------  SecConstructionContentArea Start  ---------------- */
+.secConstructionContentArea{
+    background-color: #eee;
+    margin: 60px auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.secConstructionContentArea .newsItems h4:after{
+    content: "";
+    width: 15%;
+    height: 4px;
+    display: block;
+    background-color: #ffc107;
+    margin-top: 10px;
+}
+
+.secConstructionContentArea .newsItems .newsItem{
+    margin: 10px 0;
+    display: flex;
+    font-size: 16px;
+    color: #333;
+    align-items: center;
+    
+}
+
+.secConstructionContentArea .newsItems .newsItem p{
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+}
+
+.secConstructionContentArea .newsArtical{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.secConstructionContentArea .newsArtical p{
+    text-align: justify;
+}
+/* ----------------  SecConstructionContentArea End  ---------------- */
+
+/* ----------------  ThirdConstructionContentArea start  ---------------- */
+.thirdConstructionContentArea{
+    font-size: 16px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: lighter;
+    margin: 60px auto;
+}
+.thirdConstructionContentArea .sectionItem1 .sectionItemImg{
+    background-image: url("../images/choose-us-img-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.thirdConstructionContentArea .sectionItem2 .sectionItemImg{
+    background-image: url("../images/choose-us-img-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.thirdConstructionContentArea h2:after{
+    content: "";
+    width: 10%;
+    height: 3px;
+    display: block;
+    background-color: #ffc107;
+    margin-top: 10px;
+    
+}
+
+.thirdConstructionContentArea .secondRow span {
+    width: 150px;
+    height: 56px;
+    background-color: #ffc107;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 15px;
+}
+.thirdConstructionContentArea .secondRow span i{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+/* ----------------  ThirdConstructionContentArea End  ---------------- */
+/* ----------------  fourthConstructionContentArea start  ---------------- */
+.fourthConstructionContentArea {
+    background-color: #eee;
+    padding-top: 1%;
+    font-size: 16px;
+    font-family: 'Mitr', sans-serif;
+    font-weight: lighter;
+}
+.fourthConstructionContentArea .container{
+    margin: 60px auto;
+}
+.fourthConstructionContentArea h2:after{
+    content: "";
+    width: 13%;
+    height: 4px;
+    display: block;
+    background-color: #ffc107;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fourthConstructionContentArea .testimontial-card{
+    display: flex;
+    margin: 0 12px;
+
+}
+
+.fourthConstructionContentArea .testimontial-card{
+    text-align: justify;
+    
+}
+.fourthConstructionContentArea .testimontial-card .cardImg1{
+    background-image: url('../images/profile-img-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100%;
+    width: 460px;
+    height: 115px; 
+}
+
+.fourthConstructionContentArea .testimontial-card .cardImg2{
+    background-image: url('../images/profile-img-2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100%;
+    width: 460px;
+    height: 115px; 
+}
+
+.fourthConstructionContentArea .testimontial-card .cardImg3{
+    background-image: url('../images/profile-img-3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100%;
+    width: 460px;
+    height: 115px; 
+}
+
+.fourthConstructionContentArea .testimontial-card small{
+    font-size: 70%;
+}
+
+.fourthConstructionContentArea .container{
+    padding-bottom: 60px;
+}
+/* ----------------  fourthConstructionContentArea End  ---------------- */
+
+/* ----------------  subscribeOurNewsLetterArea start  ---------------- */
+.bg-newsLetter{
+    background-image: url("../images/subscribe-our-newsletter-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    padding-top:1%;
+}    
+.subscribeOurNewsLetterArea .container .row-title{
+    margin-top: 12%;
+}
+.subscribeOurNewsLetterArea .container h1{
+    text-shadow: 0 0 4px #000;
+}
+.subscribeOurNewsLetterArea .container p{
+   font-size: 18px;
+   text-shadow: 0 0 3px #000;
+   
+}
+.subscribeOurNewsLetterArea .container .row-input{
+    margin-top: 1%;
+}
+.subscribeOurNewsLetterArea .container .row-input input{
+    width: 100px;
+    height: 45px;
+    padding: 0 20px;
+    border: 0 solid #fff;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.63);
+    font-size: inherit;
+}
+
+.subscribeOurNewsLetterArea .container .row-input button{
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    border: 0 solid #fff;
+    border-radius: 100px;
+}
+
+/* ----------------  subscribeOurNewsLetterArea End  ---------------- */
+
+/* ----------------  lastNewsSection start  ---------------- */
+.lastNewsSection{
+    margin: 60px auto;
+}
+.lastNewsSection h2:after{
+    content: "";
+    width: 10%;
+    height: 4px;
+    display: block;
+    background-color: #ffc107;
+    margin-top: 6px;
+    margin-bottom: 33px;
+}
+.lastNewsSection .row .card{
+    background-color: rgba(238, 238, 238, 0.747);
+    border: 0;
+    border-radius: 10px;
+}
+
+.lastNewsSection .row .card img{
+    border-radius: 10px;
+}
+.lastNewsSection .row .card a{
+    text-decoration: none;
+}
+.lastNewsSection .row .card h5{
+    line-height: 24px;
+    color: #222;
+    text-transform: uppercase;   
+}
+.lastNewsSection .row .card button{
+    border: 0;
+    margin-left: -9px;
+    color: #222;
+}
+.lastNewsSection .row .card button:hover{
+    color: #f7be49;
+    background-color: rgba(238, 238, 238, 0.747);
+}
+/* ----------------  lastNewsSection End  ---------------- */
+
+.footerTopArea{
+    background-color: #071c33;
+    color: rgba(255, 255, 255, 0.815);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footerTopArea .logoImg{
+    background-color: #fff;
+    width: 111px;
+    height: 84px;
+    border-radius: 5px;
+}
+.footerTopArea .adressInfo p{
+    color: #cacaca;
+    text-align: justify;
+    font-size: 16px;
+}
+.footerTopArea .adressInfo span{
+    color: #5d6d7e;
+    font-size: 14px;
+}
+.footerTopArea .quickLinks ul{
+    margin-top: 30px;
+}
+.footerTopArea .quickLinks li{
+    margin: 10px 0;
+}
+.footerTopArea .quickLinks li a{
+    color: #ffc107;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footerTopArea .quickLinks li a i{
+    margin-right: 8px;
+}
+.footerTopArea .recentPost{
+    margin-left: -15px;
+    margin-right: 15px;
+}
+.footerTopArea .recentPost ul{
+    margin-top: 30px;
+}
+.footerTopArea .recentPost ul li a{
+    text-decoration: none;
+}
+.footerTopArea .recentPost ul li a p{
+    margin: 0;
+}
+.footerTopArea .recentPost ul li hr{
+    background-color: #cacaca54;
+    width: 95%;
+    font-weight: 500;
+    text-align: center;
+}
+.footerTopArea .connectWithUs p{
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 300;
+    color: #5d6d7e;
+}
+.footerTopArea .connectWithUs .subscribeForm{
+    position: relative;
+}
+.footerTopArea .connectWithUs .subscribeForm button{
+    width: 100px;
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+.footerTopArea .connectWithUs .subscribeForm input{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    border-radius: 30px;
+    height: 50px;
+    padding: 7px 27px 8px 10px;
+    width: 210px;
+    text-align: right;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footerTopArea .connectWithUs .socialIcons{
+    color: #cacaca;
+    margin-top: 86px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerTopArea .connectWithUs .socialIcons a{
+    color: #cacaca;
+}
+.footerBottomArea{
+    background-color: #04101e;
+    color: #cacacab6;
+    font-size: 16px;
+    padding: 9px 10px 0px 10px;
+}
+.footerBottomArea a{
+    color: #cacacab6;
+    text-decoration: none;
+    text-align: left;
+}
+.footerBottomArea span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footerBottomArea p{
+    text-align: right;
+}
